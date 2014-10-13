@@ -13,6 +13,8 @@
 		9A11C2F319E6C5F90079C372 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A11C2F219E6C5F90079C372 /* Images.xcassets */; };
 		9A11C2F619E6C5F90079C372 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A11C2F419E6C5F90079C372 /* LaunchScreen.xib */; };
 		9A11C30219E6C5F90079C372 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A11C30119E6C5F90079C372 /* PostcardTests.swift */; };
+		9A8FCA0919EC6BC000DA40CA /* 9gag_6081845.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FCA0819EC6BC000DA40CA /* 9gag_6081845.jpg */; };
+		9A8FCA0B19EC704200DA40CA /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FCA0A19EC704200DA40CA /* delete.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9A11C2FB19E6C5F90079C372 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A11C30019E6C5F90079C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A11C30119E6C5F90079C372 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		9A8FCA0819EC6BC000DA40CA /* 9gag_6081845.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9gag_6081845.jpg; sourceTree = "<group>"; };
+		9A8FCA0A19EC704200DA40CA /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		9A11C2E919E6C5F90079C372 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A8FCA0A19EC704200DA40CA /* delete.png */,
+				9A8FCA0819EC6BC000DA40CA /* 9gag_6081845.jpg */,
 				9A11C2EA19E6C5F90079C372 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				9A11C2F119E6C5F90079C372 /* Main.storyboard in Resources */,
 				9A11C2F619E6C5F90079C372 /* LaunchScreen.xib in Resources */,
+				9A8FCA0919EC6BC000DA40CA /* 9gag_6081845.jpg in Resources */,
+				9A8FCA0B19EC704200DA40CA /* delete.png in Resources */,
 				9A11C2F319E6C5F90079C372 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				9A11C30719E6C5F90079C372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A11C30819E6C5F90079C372 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				9A11C30A19E6C5F90079C372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
